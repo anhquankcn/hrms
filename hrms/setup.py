@@ -884,6 +884,8 @@ def make_people_workspace_standard():
 
 def setup_repost_defaults():
 	accounts_settings = frappe.get_doc("Accounts Settings")
+	if not accounts_settings.meta.get_field("repost_allowed_types"):
+		return
 	for x in frappe.get_hooks("repost_allowed_doctypes"):
 		accounts_settings.append("repost_allowed_types", {"document_type": x})
 	accounts_settings.save()
