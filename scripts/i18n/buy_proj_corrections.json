@@ -1,0 +1,88 @@
+{
+  "_meta": {
+    "scope": "Fix incorrect/awkward Vietnamese translations in Buying + Project modules",
+    "principle": "Only update strings whose existing Vietnamese translation is wrong/awkward"
+  },
+
+  "fix_buying": {
+    "Purchase Order Item": "Chi tiết Đơn mua hàng",
+    "Purchase Invoice Item": "Chi tiết Hóa đơn mua hàng",
+    "Purchase Receipt Item": "Chi tiết Phiếu nhập kho",
+    "Request for Quotation Item": "Chi tiết Yêu cầu báo giá",
+    "Supplier Quotation Item": "Chi tiết Báo giá nhà cung cấp",
+    "Schedule Date": "Ngày dự kiến",
+    "Naming Series": "Dãy số tự sinh",
+    "Buying Settings": "Cài đặt mua hàng",
+    "Default Buying Price List": "Bảng giá mua mặc định",
+    "Delivery Status": "Tình trạng giao hàng",
+    "Billing Status": "Tình trạng xuất hóa đơn",
+    "Maintain same rate throughout purchase cycle": "Giữ nguyên đơn giá xuyên suốt chu trình mua",
+    "Per Received": "% Đã nhận",
+    "Per Billed": "% Đã xuất hóa đơn",
+    "Supplier Details": "Chi tiết nhà cung cấp"
+  },
+
+  "fix_project_user": {
+    "Project User": "Người dùng dự án",
+    "Project Tasks": "Công việc dự án",
+    "Project Manager": "Quản lý dự án",
+    "Project Status": "Trạng thái dự án",
+    "Project Template": "Mẫu dự án",
+    "Project Value": "Giá trị dự án",
+    "Estimated Costing": "Chi phí dự toán",
+    "Total Sales Amount": "Tổng doanh thu",
+    "Gross Margin": "Lợi nhuận gộp",
+    "Gross Margin %": "% Lợi nhuận gộp"
+  },
+
+  "fix_task": {
+    "Task Name": "Tên công việc",
+    "Task Type": "Loại công việc",
+    "Task Status": "Trạng thái công việc",
+    "Task Weight": "Trọng số công việc",
+    "Depends on Tasks": "Phụ thuộc vào công việc",
+    "Depends on": "Phụ thuộc vào",
+    "Expected Start Date": "Ngày dự kiến bắt đầu",
+    "Expected End Date": "Ngày dự kiến kết thúc",
+    "Actual Time (in Hours)": "Thời gian thực tế (giờ)"
+  },
+
+  "fix_timesheet": {
+    "Timesheet": "Bảng chấm giờ",
+    "Timesheet Detail": "Chi tiết bảng chấm giờ",
+    "Working Hours": "Giờ làm việc",
+    "Billable": "Tính phí được",
+    "Billable Hours": "Giờ tính phí",
+    "Billing Hours": "Giờ tính phí",
+    "Total Hours": "Tổng số giờ",
+    "Total Billable Hours": "Tổng số giờ tính phí",
+    "Total Billable Amount": "Tổng số tiền tính phí",
+    "Total Billed Amount": "Tổng số tiền đã xuất hóa đơn",
+    "Total Billable Amount (Company Currency)": "Tổng số tiền tính phí (Tiền tệ công ty)",
+    "Total Costing Amount": "Tổng số tiền chi phí",
+    "Costing Amount": "Số tiền chi phí",
+    "Billing Amount": "Số tiền tính phí",
+    "Billing Rate": "Đơn giá tính phí",
+    "Costing Rate": "Đơn giá chi phí",
+    "From Datetime": "Từ ngày giờ",
+    "To Datetime": "Đến ngày giờ",
+    "Start Datetime": "Ngày giờ bắt đầu",
+    "End Datetime": "Ngày giờ kết thúc"
+  },
+
+  "fix_status_flags": {
+    "Is Active": "Đang hoạt động",
+    "Is Inactive": "Không hoạt động",
+    "Is Frozen": "Đã khóa",
+    "Hold": "Tạm dừng",
+    "Working": "Đang thực hiện",
+    "Pending Review": "Chờ xem xét"
+  },
+
+  "fix_accounts": {
+    "Default Cost Center": "Bộ phận chi phí mặc định",
+    "Default Expense Account": "Tài khoản chi phí mặc định",
+    "Default Income Account": "Tài khoản thu nhập mặc định",
+    "Holiday List": "Danh sách ngày nghỉ"
+  }
+}

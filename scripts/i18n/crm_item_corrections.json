@@ -1,0 +1,84 @@
+{
+  "_meta": {
+    "scope": "Fix incorrect/awkward Vietnamese translations in CRM + Item Settings modules",
+    "principle": "Only update strings whose existing Vietnamese translation is wrong/awkward"
+  },
+
+  "fix_crm_lead": {
+    "Lead Source": "Nguồn khách hàng tiềm năng",
+    "Lead Name": "Tên khách hàng tiềm năng",
+    "Lead Owner": "Người phụ trách khách hàng tiềm năng",
+    "Lead Type": "Loại khách hàng tiềm năng"
+  },
+
+  "fix_crm_opportunity": {
+    "Opportunity From": "Cơ hội từ",
+    "Opportunity Item": "Chi tiết cơ hội bán hàng",
+    "Sales Stage": "Giai đoạn bán hàng"
+  },
+
+  "fix_crm_contract_appointment": {
+    "Signed On": "Ngày ký",
+    "Appointment With": "Hẹn với",
+    "Calendar Event": "Sự kiện trên lịch",
+    "Email Group": "Nhóm email",
+    "Send To": "Gửi đến"
+  },
+
+  "fix_item_basic": {
+    "Brand": "Thương hiệu",
+    "Is Fixed Asset": "Là tài sản cố định",
+    "Is Sales Item": "Là mặt hàng bán",
+    "Is Purchase Item": "Là mặt hàng mua",
+    "Stock UOM": "Đơn vị tính tồn kho",
+    "Default UOM": "Đơn vị tính mặc định",
+    "Item Defaults": "Mặc định mặt hàng",
+    "Image": "Hình ảnh",
+    "Item Image": "Hình ảnh mặt hàng",
+    "Customer Items": "Mặt hàng của khách hàng"
+  },
+
+  "fix_reorder": {
+    "Item Reorder": "Đặt hàng bổ sung mặt hàng",
+    "Re-order Level": "Mức đặt hàng bổ sung",
+    "Re-order Qty": "Số lượng đặt hàng bổ sung",
+    "Material Request Type": "Loại yêu cầu vật tư",
+    "Min Order Qty": "Số lượng đặt mua tối thiểu",
+    "Safety Stock": "Tồn kho an toàn"
+  },
+
+  "fix_variant_attribute": {
+    "Item Variants": "Biến thể mặt hàng",
+    "Variant Based On": "Biến thể dựa trên",
+    "Item Variant Settings": "Cài đặt biến thể mặt hàng",
+    "Item Attribute": "Thuộc tính mặt hàng",
+    "Item Attribute Value": "Giá trị thuộc tính mặt hàng",
+    "Attribute": "Thuộc tính"
+  },
+
+  "fix_item_related": {
+    "Item Manufacturer": "Nhà sản xuất mặt hàng",
+    "Item Tax": "Thuế mặt hàng",
+    "Item Supplier": "Nhà cung cấp mặt hàng",
+    "Supplier Part No": "Mã NCC của mặt hàng",
+    "Item Customer Detail": "Chi tiết khách hàng cho mặt hàng",
+    "Ref Code": "Mã tham chiếu",
+    "Item Barcode": "Mã vạch mặt hàng",
+    "Item Alternative": "Mặt hàng thay thế"
+  },
+
+  "fix_batch_serial": {
+    "Has Batch No": "Có số lô",
+    "Has Serial No": "Có số seri"
+  },
+
+  "fix_stock_settings": {
+    "Stock Settings": "Cài đặt tồn kho",
+    "Default Item Group": "Nhóm mặt hàng mặc định",
+    "Default Valuation Method": "Phương pháp định giá mặc định",
+    "Moving Average": "Bình quân di động",
+    "Show Barcode Field": "Hiển thị trường mã vạch",
+    "Sample Retention Warehouse": "Kho lưu mẫu",
+    "Allow Negative Stock": "Cho phép tồn kho âm"
+  }
+}

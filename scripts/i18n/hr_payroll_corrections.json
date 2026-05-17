@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "scope": "Fix HR/Payroll translations + Mục→Mặt hàng cascade errors across all modules",
+    "principle": "Fix existing translations with wrong terminology"
+  },
+
+  "fix_muc_cascade": {
+    "Goal": "Mục tiêu",
+    "Goals": "Mục tiêu",
+    "Goals cannot be empty": "Mục tiêu không thể để trống",
+    "Goal and Procedure": "Mục tiêu và quy trình",
+    "Target": "Mục tiêu",
+    "Target ({})": "Mục tiêu ({})",
+    "Target On": "Mục tiêu theo",
+    "Targets": "Các mục tiêu",
+    "Objective": "Mục tiêu",
+    "Objectives": "Mục tiêu",
+    "Quality Goal": "Mục tiêu chất lượng",
+    "Quality Goal.": "Mục tiêu chất lượng.",
+    "Quality Goal Objective": "Mục tiêu của mục tiêu chất lượng",
+    "Quality Review Objective": "Mục tiêu đánh giá chất lượng",
+    "Monthly Sales Target": "Mục tiêu doanh số hàng tháng",
+    "Sales Partner Target": "Mục tiêu doanh số đối tác",
+    "Purposes": "Mục đích",
+    "Maintenance Visit Purpose": "Mục đích thăm bảo trì",
+    "Purpose must be one of {0}": "Mục đích phải là một trong {0}",
+    "Consumables": "Vật tư tiêu hao",
+    "Material Consumption": "Tiêu thụ vật tư",
+    "**Monthly Distribution** helps you distribute the Budget/Target across months if you have seasonality in your business.": "**Phân phối hàng tháng** giúp bạn phân bổ Ngân sách/Mục tiêu qua các tháng nếu kinh doanh có tính mùa vụ"
+  },
+
+  "fix_hr_basic": {
+    "Employment Type": "Loại hợp đồng lao động",
+    "Log Type": "Loại bản ghi",
+    "Half Day Date": "Ngày nghỉ nửa buổi",
+    "Carry Forward": "Chuyển kỳ sau",
+    "Reports to": "Báo cáo lên"
+  },
+
+  "fix_payroll": {
+    "Net Pay": "Lương thuần",
+    "Gross Pay": "Lương gộp",
+    "Payroll Frequency": "Tần suất tính lương",
+    "Standard Tax Exemption Amount": "Số tiền miễn thuế chuẩn",
+    "Salary Component": "Khoản lương",
+    "Total Earnings": "Tổng thu nhập",
+    "Total Deductions": "Tổng khấu trừ",
+    "Earnings": "Khoản thu",
+    "Deductions": "Khoản khấu trừ"
+  },
+
+  "fix_employee_lifecycle": {
+    "Employee Onboarding": "Tiếp nhận nhân viên mới",
+    "Employee Separation": "Nghỉ việc",
+    "Employee Transfer": "Điều chuyển nhân viên",
+    "Employee Promotion": "Thăng chức",
+    "Job Applicant": "Ứng viên",
+    "Job Opening": "Vị trí tuyển dụng",
+    "Vacancies": "Vị trí trống"
+  }
+}

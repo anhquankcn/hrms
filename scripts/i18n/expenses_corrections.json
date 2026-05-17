@@ -1,0 +1,143 @@
+{
+  "_meta": {
+    "scope": "Fix incorrect/awkward Vietnamese translations in Expense / Budget / Travel modules",
+    "principle": "Only update strings whose existing Vietnamese translation is wrong/awkward"
+  },
+
+  "fix_advance_account": {
+    "Advance Account": "Tài khoản tạm ứng",
+    "Account Head": "Đầu tài khoản",
+    "Default Account": "Tài khoản mặc định",
+    "Bank / Cash Account": "Tài khoản ngân hàng / Tiền mặt",
+    "Deferred Expense Account": "Tài khoản chi phí chờ phân bổ",
+    "Gain Loss Account": "Tài khoản lãi/lỗ",
+    "Payable Account": "Tài khoản phải trả"
+  },
+
+  "fix_amount_currency": {
+    "Amount (Company Currency)": "Số tiền (Tiền tệ công ty)",
+    "Paid Amount (Company Currency)": "Số tiền đã trả (Tiền tệ công ty)",
+    "Total (Company Currency)": "Tổng (Tiền tệ công ty)",
+    "Total Taxes and Charges (Company Currency)": "Tổng thuế và phí (Tiền tệ công ty)",
+    "Totals": "Tổng số",
+    "Amount claimed via Expense Claim": "Số tiền đã đề nghị thanh toán qua Đề nghị chi phí",
+    "Amount of expense": "Số tiền chi phí",
+    "Amount scheduled for deduction via salary": "Số tiền dự kiến khấu trừ qua lương",
+    "Amount that has been paid against this advance": "Số tiền đã thanh toán cho tạm ứng này",
+    "Funded Amount": "Số tiền được tài trợ",
+    "Pending Amount": "Số tiền chờ xử lý",
+    "Pending (unpaid) amount from previous advances": "Số tiền còn nợ (chưa thanh toán) từ các khoản tạm ứng trước"
+  },
+
+  "fix_claim_terms": {
+    "Claimed": "Đã đề nghị",
+    "Claimed Amount": "Số tiền đã đề nghị",
+    "Total Claimed Amount": "Tổng số tiền đã đề nghị",
+    "Total Claimed Amount (Company Currency)": "Tổng số tiền đã đề nghị (Tiền tệ công ty)",
+    "Unclaimed Amount": "Số tiền chưa đề nghị",
+    "Unclaimed Amount (Company Currency)": "Số tiền chưa đề nghị (Tiền tệ công ty)",
+    "Partly Claimed and Returned": "Đã đề nghị một phần và đã hoàn trả",
+    "Repay Unclaimed Amount from Salary": "Hoàn trả số tiền chưa đề nghị từ lương",
+    "Expense Claim Type": "Loại đề nghị chi phí",
+    "Expense Approver": "Người duyệt chi phí",
+    "Expense Date": "Ngày phát sinh chi phí",
+    "Expense Type": "Loại chi phí",
+    "Expense Taxes and Charges": "Thuế và phí cho chi phí",
+    "Travel Advance Required": "Cần tạm ứng công tác",
+    "Sanctioned Amount": "Số tiền được duyệt",
+    "Sanctioned Amount (Company Currency)": "Số tiền được duyệt (Tiền tệ công ty)",
+    "Total Sanctioned Amount": "Tổng số tiền được duyệt",
+    "Total Sanctioned Amount (Company Currency)": "Tổng số tiền được duyệt (Tiền tệ công ty)"
+  },
+
+  "fix_purpose": {
+    "Purpose": "Mục đích",
+    "Purpose & Amount": "Mục đích & Số tiền",
+    "Purpose of Travel": "Mục đích chuyến công tác"
+  },
+
+  "fix_budget": {
+    "Budget Against": "Ngân sách theo",
+    "Applicable on Purchase Order": "Áp dụng cho Đơn đặt hàng mua",
+    "Applicable on Material Request": "Áp dụng cho Yêu cầu vật tư",
+    "Applicable on booking actual expenses": "Áp dụng khi hạch toán chi phí thực tế",
+    "Action if Accumulated Monthly Budget Exceeded on Actual": "Hành động khi Ngân sách hàng tháng lũy kế vượt thực tế",
+    "Action if Accumulated Monthly Budget Exceeded on MR": "Hành động khi Ngân sách hàng tháng lũy kế vượt qua Yêu cầu vật tư",
+    "Action if Accumulated Monthly Budget Exceeded on PO": "Hành động khi Ngân sách hàng tháng lũy kế vượt qua Đơn đặt hàng mua",
+    "Action if Annual Budget Exceeded on Actual": "Hành động khi Ngân sách năm vượt thực tế",
+    "Action if Annual Budget Exceeded on MR": "Hành động khi Ngân sách năm vượt qua Yêu cầu vật tư",
+    "Action if Annual Budget Exceeded on PO": "Hành động khi Ngân sách năm vượt qua Đơn đặt hàng mua"
+  },
+
+  "fix_travel": {
+    "Travel To": "Đi đến",
+    "Travel From": "Đi từ",
+    "Travel Type": "Loại công tác",
+    "Travel Funding": "Nguồn tài trợ công tác",
+    "Travel Itinerary": "Lịch trình công tác",
+    "Mode of Travel": "Phương thức di chuyển",
+    "Flight": "Máy bay",
+    "Train": "Tàu hỏa",
+    "Rented Car": "Thuê xe",
+    "Taxi": "Taxi",
+    "Domestic": "Trong nước",
+    "International": "Quốc tế",
+    "Departure Datetime": "Ngày giờ khởi hành",
+    "Arrival Datetime": "Ngày giờ đến",
+    "Check-in Date": "Ngày nhận phòng",
+    "Check-out Date": "Ngày trả phòng",
+    "Lodging Required": "Cần lưu trú",
+    "Preferred Area for Lodging": "Khu vực mong muốn để lưu trú",
+    "Fully Sponsored": "Tài trợ toàn bộ",
+    "Partially Sponsored, Require Partial Funding": "Tài trợ một phần, cần tài trợ thêm",
+    "Require Full Funding": "Cần tài trợ toàn bộ",
+    "Address of Organizer": "Địa chỉ người tổ chức",
+    "Name of Organizer": "Tên người tổ chức",
+    "Copy of Invitation/Announcement": "Bản sao thư mời/thông báo",
+    "Details of Sponsor (Name, Location)": "Chi tiết nhà tài trợ (Tên, Địa điểm)",
+    "Identification Document Number": "Số giấy tờ tùy thân",
+    "Identification Document Type": "Loại giấy tờ tùy thân"
+  },
+
+  "fix_meal": {
+    "Meal Preference": "Khẩu phần ăn",
+    "Vegetarian": "Chay",
+    "Non-Vegetarian": "Không chay",
+    "Non Diary": "Không sữa",
+    "Gluten Free": "Không gluten"
+  },
+
+  "fix_exchange": {
+    "Exchange Gain/Loss": "Lãi/lỗ tỷ giá",
+    "Total Exchange Gain/Loss": "Tổng lãi/lỗ tỷ giá",
+    "Exchange rate of Payment Entry against Employee Advance": "Tỷ giá Phiếu thanh toán so với Tạm ứng nhân viên"
+  },
+
+  "fix_misc": {
+    "Amended From": "Sửa đổi từ",
+    "Employee Advance": "Tạm ứng nhân viên",
+    "Costing": "Chi phí dự kiến",
+    "Costing Details": "Chi tiết chi phí",
+    "Comments": "Bình luận",
+    "Remark": "Ghi chú",
+    "More Info": "Thêm thông tin",
+    "Other Details": "Chi tiết khác",
+    "Any other details": "Các chi tiết khác",
+    "Is Paid": "Đã thanh toán",
+    "Delivery Trip": "Chuyến giao hàng",
+    "Vehicle Log": "Nhật ký xe",
+    "Advance Paid": "Đã trả tạm ứng",
+    "Advance Paid (Company Currency)": "Đã trả tạm ứng (Tiền tệ công ty)",
+    "Advance Payments": "Khoản tạm ứng",
+    "Advances": "Tạm ứng",
+    "Returned Amount": "Số tiền hoàn trả",
+    "Total Amount Reimbursed": "Tổng số tiền được hoàn trả",
+    "Total Advance Amount (Company Currency)": "Tổng số tiền tạm ứng (Tiền tệ công ty)",
+    "Sponsored Amount": "Số tiền được tài trợ",
+    "Series": "Dãy số",
+    "Stop": "Dừng",
+    "Warn": "Cảnh báo",
+    "Ignore": "Bỏ qua",
+    "Control Action": "Hành động kiểm soát"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "scope": "Standardize Cost Center translations to 'Bộ phận chi phí' across all UI strings",
+    "principle": "Fix incorrect/inconsistent translations of Cost Center module"
+  },
+
+  "fix_cc_terms": {
+    "Cost Center": "Bộ phận chi phí",
+    "Cost Centers": "Bộ phận chi phí",
+    "Cost Center Name": "Tên bộ phận chi phí",
+    "Cost Center Number": "Số bộ phận chi phí",
+    "New Cost Center Name": "Tên bộ phận chi phí mới",
+    "Parent Cost Center": "Bộ phận chi phí cha",
+    "Main Cost Center": "Bộ phận chi phí chính",
+    "Chart of Cost Centers": "Hệ thống Bộ phận chi phí",
+    "Cost Center and Budgeting": "Bộ phận chi phí và Ngân sách",
+    "Cost Center Allocation": "Phân bổ Bộ phận chi phí",
+    "Cost Center Allocation Percentages": "Tỷ lệ phân bổ Bộ phận chi phí",
+    "Write Off Cost Center": "Bộ phận chi phí xóa sổ",
+    "Default Cost Center": "Bộ phận chi phí mặc định",
+    "Round Off Cost Center": "Bộ phận chi phí làm tròn",
+    "Asset Depreciation Cost Center": "Bộ phận chi phí khấu hao tài sản"
+  },
+
+  "fix_cc_messages": {
+    "Cannot convert Cost Center to ledger as it has child nodes": "Không thể chuyển Bộ phận chi phí thành sổ chi tiết vì có các nút con",
+    "Cost Center is required in row {0} in Taxes table for type {1}": "Bộ phận chi phí là bắt buộc ở dòng {0} trong bảng Thuế cho loại {1}",
+    "Cost Center with existing transactions can not be converted to group": "Bộ phận chi phí đã có giao dịch không thể chuyển thành Nhóm",
+    "Cost Center with existing transactions can not be converted to ledger": "Bộ phận chi phí đã có giao dịch không thể chuyển thành Sổ chi tiết",
+    "Cost Center: {0} does not exist": "Bộ phận chi phí: {0} không tồn tại",
+    "Note: This Cost Center is a Group. Cannot make accounting entries against groups.": "Lưu ý: Bộ phận chi phí này là Nhóm. Không thể tạo bút toán cho Nhóm.",
+    "Number of new Cost Center, it will be included in the cost center name as a prefix": "Số của Bộ phận chi phí mới, sẽ được thêm vào tên làm tiền tố",
+    "Please enter Cost Center": "Vui lòng nhập Bộ phận chi phí",
+    "Please enter parent cost center": "Vui lòng nhập Bộ phận chi phí cha",
+    "Please mention Round Off Cost Center in Company": "Vui lòng đặt Bộ phận chi phí làm tròn trong Công ty",
+    "Please set 'Asset Depreciation Cost Center' in Company {0}": "Vui lòng đặt 'Bộ phận chi phí khấu hao tài sản' trong Công ty {0}",
+    "Please set the Default Cost Center in {0} company.": "Vui lòng đặt Bộ phận chi phí mặc định trong Công ty {0}.",
+    "Root cannot have a parent cost center": "Bộ phận chi phí gốc không thể có bộ phận cha",
+    "Tree of financial Cost Centers.": "Cây các Bộ phận chi phí tài chính.",
+    "Further cost centers can be made under Groups but entries can be made against non-Groups": "Có thể tạo Bộ phận chi phí khác dưới Nhóm, nhưng bút toán chỉ được tạo cho loại không phải Nhóm",
+    "{0} {1}: Cost Center is mandatory for Item {2}": "{0} {1}: Bộ phận chi phí là bắt buộc cho Mặt hàng {2}",
+    "{0} {1}: Cost Center is required for 'Profit and Loss' account {2}. Please set up a default Cost Center for the Company.": "{0} {1}: Bộ phận chi phí là bắt buộc cho tài khoản 'Lãi/Lỗ' {2}. Vui lòng thiết lập Bộ phận chi phí mặc định cho Công ty.",
+    "{0} {1}: Cost Center {2} does not belong to Company {3}": "{0} {1}: Bộ phận chi phí {2} không thuộc Công ty {3}",
+    "Row #{0}: Cost Center {1} does not belong to company {2}": "Dòng #{0}: Bộ phận chi phí {1} không thuộc công ty {2}",
+    "{0} is not a group node. Please select a group node as parent cost center": "{0} không phải nút Nhóm. Vui lòng chọn một nút Nhóm làm Bộ phận chi phí cha"
+  }
+}

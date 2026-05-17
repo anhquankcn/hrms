@@ -1,0 +1,115 @@
+{
+  "_meta": {
+    "scope": "Fix incorrect/awkward existing Vietnamese translations in Users module",
+    "principle": "Only update strings whose existing Vietnamese translation is wrong/awkward — do not add new translations"
+  },
+
+  "fix_send_cascade": {
+    "Send Me A Copy of Outgoing Emails": "Gửi bản sao email gửi đi cho tôi",
+    "Send Notifications For Documents Followed By Me": "Gửi thông báo cho chứng từ tôi theo dõi",
+    "Send Notifications For Email Threads": "Gửi thông báo cho chuỗi email",
+    "Send Welcome Email": "Gửi email chào mừng",
+    "Enable Outgoing": "Bật gửi đi"
+  },
+
+  "fix_reset_password": {
+    "Reset Password Key": "Khóa đặt lại mật khẩu",
+    "API Key cannot be regenerated": "Không thể tạo lại Khóa API",
+    "Last Reset Password Key Generated On": "Ngày tạo khóa đặt lại mật khẩu cuối"
+  },
+
+  "fix_desk": {
+    "Desk Access": "Quyền truy cập Desk",
+    "Desk Settings": "Cài đặt Desk",
+    "Desk Theme": "Giao diện Desk"
+  },
+
+  "fix_block_module": {
+    "Block Modules": "Module bị chặn",
+    "Allowed Modules": "Module được phép",
+    "Allow Modules": "Module được phép",
+    "Module": "Module",
+    "Module HTML": "HTML Module",
+    "Modules HTML": "HTML Module",
+    "Module Profile": "Hồ sơ Module",
+    "Module Profile Name": "Tên hồ sơ Module",
+    "User Type Module": "Module loại người dùng"
+  },
+
+  "fix_names": {
+    "First Name": "Tên",
+    "Last Name": "Họ",
+    "Middle Name": "Tên đệm",
+    "Full Name": "Họ và tên"
+  },
+
+  "fix_theme_light": {
+    "Light": "Sáng",
+    "Dark": "Tối",
+    "Automatic": "Tự động"
+  },
+
+  "fix_misc": {
+    "Allow": "Cho phép",
+    "Frequency": "Tần suất",
+    "API Secret": "Mã bí mật API",
+    "Allowed In Mentions": "Cho phép trong @mention",
+    "View Switcher": "Chuyển đổi giao diện",
+    "Social Logins": "Đăng nhập mạng xã hội",
+    "Document Follow": "Theo dõi chứng từ",
+    "Document Type": "Loại chứng từ",
+    "Document Types": "Loại chứng từ",
+    "Document Types (Select Permissions Only)": "Loại chứng từ (Chỉ quyền Chọn)",
+    "Document Types and Permissions": "Loại chứng từ và Quyền",
+    "Custom Document Types (Select Permission)": "Loại chứng từ tùy chỉnh (Quyền Chọn)",
+    "Apply To All Document Types": "Áp dụng cho mọi loại chứng từ",
+    "Apply User Permission On": "Áp dụng quyền người dùng cho",
+    "Can only list down the document types which has been linked to the User document type.": "Chỉ liệt kê được các loại chứng từ đã liên kết với loại người dùng.",
+    "Hide descendant records of <b>For Value</b>.": "Ẩn các bản ghi con của <b>Cho giá trị</b>.",
+    "Auto follow documents that are assigned to you": "Tự động theo dõi chứng từ được giao cho bạn",
+    "Auto follow documents that are shared with you": "Tự động theo dõi chứng từ được chia sẻ với bạn",
+    "Auto follow documents that you Like": "Tự động theo dõi chứng từ bạn Thích",
+    "Auto follow documents that you comment on": "Tự động theo dõi chứng từ bạn bình luận",
+    "Auto follow documents that you create": "Tự động theo dõi chứng từ bạn tạo",
+    "Restrict To Domain": "Giới hạn theo tên miền",
+    "Bypass Restricted IP Address Check If Two Factor Auth Enabled": "Bỏ qua kiểm tra IP khi đã bật xác thực hai yếu tố",
+    "If enabled,  user can login from any IP Address using Two Factor Auth, this can also be set for all users in System Settings": "Nếu bật, người dùng có thể đăng nhập từ mọi địa chỉ IP qua xác thực hai yếu tố. Cũng có thể đặt cho mọi người dùng trong Cài đặt hệ thống",
+    "Restrict user from this IP address only. Multiple IP addresses can be added by separating with commas. Also accepts partial IP addresses like (111.111.111)": "Chỉ cho phép người dùng từ địa chỉ IP này. Có thể thêm nhiều IP, cách nhau bằng dấu phẩy. Chấp nhận IP một phần như (111.111.111)",
+    "Stores the JSON of last known versions of various installed apps. It is used to show release notes.": "Lưu JSON các phiên bản gần nhất của các ứng dụng đã cài. Dùng để hiển thị ghi chú phát hành.",
+    "Stores the datetime when the last reset password key was generated.": "Lưu thời điểm tạo khóa đặt lại mật khẩu cuối.",
+    "These values will be automatically updated in transactions and also will be useful to restrict permissions for this user on transactions containing these values.": "Các giá trị này sẽ tự động cập nhật trong giao dịch và dùng để giới hạn quyền của người dùng trên các giao dịch chứa các giá trị này.",
+    "Get your globally recognized avatar from Gravatar.com": "Lấy avatar toàn cầu của bạn từ Gravatar.com",
+    "Awaiting Password": "Chờ đặt mật khẩu",
+    "Onboarding Status": "Trạng thái khởi tạo",
+    "User Emails": "Email người dùng",
+    "User Id Field": "Trường ID người dùng",
+    "Last Known Versions": "Phiên bản đã dùng gần đây",
+    "Last IP": "IP gần nhất",
+    "Last Password Reset Date": "Ngày đặt lại mật khẩu cuối",
+    "Banner Image": "Ảnh bìa",
+    "Location": "Địa điểm",
+    "Bio": "Giới thiệu",
+    "Used OAuth": "Đã đăng nhập qua OAuth",
+    "Unsubscribed": "Đã hủy đăng ký",
+    "Defaults": "Giá trị mặc định",
+    "User Defaults": "Giá trị mặc định của người dùng",
+    "Session Defaults": "Mặc định phiên",
+    "Settings": "Cài đặt",
+    "Is Custom": "Tùy chỉnh",
+    "Is Default": "Mặc định",
+    "Is Standard": "Chuẩn",
+    "Dashboard": "Trang tổng quan",
+    "Hide Descendants": "Ẩn các bản ghi con",
+    "Roles & Permissions": "Vai trò và Quyền",
+    "Roles HTML": "HTML vai trò",
+    "Roles Html": "HTML vai trò",
+    "Roles Assigned": "Vai trò đã gán",
+    "Domain": "Tên miền",
+    "Provider": "Nhà cung cấp",
+    "Logout From All Devices After Changing Password": "Đăng xuất khỏi tất cả thiết bị sau khi đổi mật khẩu",
+    "Email Account": "Tài khoản email",
+    "Email Signature": "Chữ ký email",
+    "Email ID": "Địa chỉ email",
+    "Mobile No": "Số di động"
+  }
+}

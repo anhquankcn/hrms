@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "scope": "Fix incorrect/awkward existing Vietnamese translations in Sales + Stock modules",
+    "principle": "Only update strings whose existing Vietnamese translation is wrong/awkward"
+  },
+
+  "fix_sales": {
+    "Customer Type": "Loại khách hàng",
+    "Item Price": "Giá mặt hàng",
+    "Item-wise Sales History": "Lịch sử bán hàng theo mặt hàng",
+    "Item-wise Purchase History": "Lịch sử mua hàng theo mặt hàng",
+    "Get Items From": "Lấy mặt hàng từ",
+    "Price List Rate": "Đơn giá theo bảng giá",
+    "Selling Price List": "Bảng giá bán",
+    "Buying Price List": "Bảng giá mua",
+    "Net Rate": "Đơn giá thuần"
+  },
+
+  "fix_stock_locations": {
+    "Target Warehouse": "Kho đích",
+    "Source Warehouse": "Kho nguồn",
+    "From Warehouse": "Kho xuất",
+    "To Warehouse": "Kho nhập",
+    "Default Warehouse": "Kho mặc định",
+    "Stock Qty": "Số lượng tồn kho",
+    "Total Qty": "Tổng số lượng",
+    "Projected Qty": "Số lượng dự kiến",
+    "Stock Ledger Entry": "Bút toán sổ kho"
+  },
+
+  "fix_stock_actions": {
+    "Manufacture": "Sản xuất",
+    "Material Transfer": "Chuyển vật tư",
+    "Material Issue": "Xuất vật tư",
+    "Material Receipt": "Nhập vật tư",
+    "Material Transfer for Manufacture": "Chuyển vật tư cho sản xuất",
+    "Material Consumption for Manufacture": "Tiêu thụ vật tư cho sản xuất",
+    "Repack": "Đóng gói lại",
+    "Send to Subcontractor": "Gửi cho nhà thầu phụ",
+    "Send to Warehouse": "Gửi đến kho",
+    "Receive at Warehouse": "Nhận tại kho"
+  },
+
+  "fix_stock_misc": {
+    "Conversion Factor": "Hệ số quy đổi",
+    "UOM Conversion Factor": "Hệ số quy đổi đơn vị tính",
+    "Posting Time": "Giờ hạch toán",
+    "Expected Delivery Date": "Ngày dự kiến giao hàng",
+    "Required By": "Cần vào ngày",
+    "Reorder Level": "Mức đặt hàng bổ sung",
+    "Reorder Qty": "Số lượng đặt hàng bổ sung",
+    "Reorder Type": "Loại đặt hàng bổ sung",
+    "Lead Time": "Thời gian đặt hàng dự kiến",
+    "Lead Time Days": "Số ngày đặt hàng dự kiến",
+    "Notes": "Ghi chú"
+  }
+}
